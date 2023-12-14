@@ -12,29 +12,14 @@ Currently, two official plugins are available:
 
   - npm install -D tailwindcss postcss autoprefixer
   - npx tailwindcss init -p
-
-
-  - Configure your template paths  :
-   <p>/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}</p>
-
-
 - Add the Tailwind directives to your CSS
+
+
 - Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file
 
-  <p>
   @tailwind base;
   @tailwind components;
-  @tailwind utilities;</p>
+  @tailwind utilities;
 
 
 
